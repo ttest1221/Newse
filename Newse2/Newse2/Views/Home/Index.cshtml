@@ -1,0 +1,149 @@
+﻿@using Newse2.Models
+@using PagedList.Mvc;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model AuthorizedUser
+@{
+
+
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <ul class="menu__box">
+            @for(int i = 0; i < Model.Categories.Count(); i++)
+            {
+                <li><a class="menu__item" asp-controller="Home" asp-action="Index" asp-route-categoryId="@Model.Categories.ToList()[i].Id">@Model.Categories.ToList()[i].Title</a></li>
+            }
+            
+        </ul>
+    </div>
+
+
+    <p style="text-align: right">@Model.Nickname</p>
+    @if(Model.Role == "Администратор")
+    {
+        <p style ="text-align: right">
+            <a asp-controller="Home" asp-action="AdminPage" asp-route-username="@Model.Nickname">Добавить новость</a>
+        </p>
+        
+    }
+
+   
+    <div class="feed">
+        @try
+        {
+            <h2>Последняя новость</h2>
+            <div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">
+                <b style="text-align: right">@Model.Posts.First().DateOfCreation</b> <br>
+                <a class="LinkNews" asp-controller="Home" asp-action="News" asp-route-username="@Model.Nickname" asp-route-id="@Model.Posts.First().Id">@Model.Posts.First().Title</a>
+                <p>
+                    @Model.Posts.ToList().First().Description
+                </p>
+                <p>Комментариев: @Model.Comments.Where(x => x.PostId == Model.Posts.First().Id).Count()</p>
+            </div>
+        }
+        catch
+        {
+
+        }
+
+    </div>
+
+    <div class="p-3 mb-2 bg-dark text-white"></div>
+
+    <h5>Актуальное:</h5>
+    @try
+    {
+        @if (Model.CurrentCategory == 0)
+        {
+            bool isSkiped = false;
+            @for (int i = 0; i < Model.IndexVM.Posts.Count(); i++)
+            {
+                if (Model.IndexVM.PageViewModel.PageNumber == 1 && isSkiped == false)
+                {
+                    i++;
+                    isSkiped = true;
+                }
+                <div class="p-3 border  border-black rounded-end">
+                    <b>@Model.IndexVM.Posts.ToList()[i].DateOfCreation</b> <br>
+                    <a class="LinkNews" asp-controller="Home" asp-action="News" asp-route-username="@Model.Nickname" asp-route-id="@Model.IndexVM.Posts.ToList()[i].Id">@Model.IndexVM.Posts.ToList()[i].Title</a>
+                    <p>
+                        @Model.IndexVM.Posts.ToList()[i].Description
+                    </p>
+                    <p>Комментариев: @Model.Comments.Where(x => x.PostId == Model.IndexVM.Posts.ToList()[i].Id).Count()</p>
+                </div>
+                <p> </p>
+
+            }
+        }
+        else
+        {
+            bool isSkiped = false;
+            @for (int i = 0; i < Model.IndexVM.Posts.Count(); i++)
+            {
+                if(Model.IndexVM.PageViewModel.PageNumber == 1 && isSkiped == false)
+                {
+                    i++;
+                    isSkiped = true;
+                }
+
+                if (Model.IndexVM.Posts.ToList()[i].CategoryId == Model.CurrentCategory)
+                {
+                    <div class="p-3 border border-black  rounded-end">
+                        <b>@Model.IndexVM.Posts.ToList()[i].DateOfCreation</b> <br>
+                        <a class="LinkNews" asp-controller="Home" asp-action="News" asp-route-username="@Model.Nickname" asp-route-id="@Model.IndexVM.Posts.ToList()[i].Id">@Model.IndexVM.Posts.ToList()[i].Title</a>
+                        <p>
+                            @Model.IndexVM.Posts.ToList()[i].Description
+                        </p>
+                        <p>Комментариев: @Model.Comments.Where(x => x.PostId == Model.IndexVM.Posts.ToList()[i].Id).Count()</p>
+                    </div>
+                    <p> </p>
+                }
+
+            }
+        }
+
+    }
+    catch
+    {
+
+    }
+
+}
+
+<style>
+    .glyphicon {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    .glyphicon-chevron-right:after {
+        content: "\00BB";
+    }
+
+    .glyphicon-chevron-left:before {
+        content: "\00AB";
+    }
+</style>
+
+@if (Model.IndexVM.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.IndexVM.PageViewModel.PageNumber - 1)" class="glyphicon glyphicon-chevron-left" asp-route-categoryId=@Model.CurrentCategory
+       asp-route-username=@Model.Nickname>
+        Назад
+    </a>
+}
+@if (Model.IndexVM.PageViewModel.HasNextPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.IndexVM.PageViewModel.PageNumber + 1)" class="glyphicon glyphicon-chevron-right"
+       asp-route-categoryId=@Model.CurrentCategory
+       asp-route-username=@Model.Nickname>
+        Вперед
+    </a>
+}
+</p>
+

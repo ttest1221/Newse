@@ -1,0 +1,33 @@
+﻿
+@model AuthorizedUser
+@{
+    <a asp-controller="Home" asp-action="Index">На главное меню</a>
+
+    <h1>@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Title</h1>
+    <p>@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Author.Nickname</p>
+    <p>@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().DateOfCreation</p>
+    <p>@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().PostContent</p>
+    <h2>Комментарии:</h2>
+    <form method="post" asp-controller="User" asp-action="AddComment" align="center">
+        <p>Комментарий</p>
+        <textarea name="content" cols="100" rows="5" required></textarea>
+        <input type="text" style="display: none" name="postId" value="@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Id">
+        <input type="text" style="display: none" name="username" value="@Model.Nickname">
+        <br />
+        <input type="submit" value="Добавить комментарий" name="btSend">
+    </form>
+    <p> </p>
+    @for (int i = 0; i < @Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Commentaries.ToList().Count(); i++)
+    {
+        <div class="p-3 border border-black  rounded-end">
+            <b>@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Commentaries.ToList()[i].DateOfWritten</b>
+            <p> </p>
+            @Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Commentaries.ToList()[i].User.Nickname
+            <p>@Model.Posts.ToList().Where(x => x.Id == Model.CurrentPost).FirstOrDefault().Commentaries.ToList()[i].CommentaryContent</p>
+            <p/>
+        </div>
+        <p> </p>
+    }
+    
+    }
+   

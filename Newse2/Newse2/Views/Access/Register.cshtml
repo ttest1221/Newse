@@ -1,0 +1,29 @@
+﻿@model IEnumerable<User>
+@{
+    ViewData["Title"] = "Регистрация";
+}
+
+    <form asp-controller="User" asp-action="AddUser" method="post" align="center">
+    <h1>Регистрация</h1>
+
+    <input type="text" name="username" placeholder="Имя пользователя" required />
+    <p> </p>
+    <input type="email" name="login" placeholder="E-mail" required />
+    <p> </p>
+    <input type="password" name="password" placeholder="Пароль" required />
+    <p> </p>
+    <input type="submit" class="btn btn-success" value="Зарегестрироваться" />
+    <p> </p>
+    <a asp-controller="Home" asp-action="Index">На главное меню</a>
+    <br />
+    <a asp-controller="Access" asp-action="Login">У меня уже есть аккаунт</a>
+
+        @if (ViewData["ValidateMessage"] != null)
+        {
+            <br />
+            <br />
+            <label>@ViewData["ValidateMessage"]</label>
+        }
+
+    </form>
+

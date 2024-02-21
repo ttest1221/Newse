@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Newse2.props" />
+</Project>

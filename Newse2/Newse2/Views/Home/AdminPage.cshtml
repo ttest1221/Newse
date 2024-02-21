@@ -1,0 +1,33 @@
+﻿@using Newse2.Models
+@model AuthorizedUser
+@{
+
+    <form method="post" action="https://localhost:7214/AddNews/AddNews" align="center">
+        <p>Название новости</p>
+        <textarea name="title" cols="100" rows="3" required></textarea>
+        <br/>
+        <p>Описание новости - для главной</p>
+        <textarea name="description" cols="100" rows="5" required></textarea>
+        <br />
+        <p>Содержание новости</p>
+        <textarea name="postcontent" cols="100" rows="10" required></textarea>
+        <br />
+        <textarea name="authorid" style="display:none" cols="100" rows="1" required>@Model.Id</textarea>
+        <br />
+        <p>Номер категории</p>
+        <select name="categoryId">
+            @for (int i = 0; i < Model.Categories.Count(); i++)
+            {
+                <option value="@Model.Categories.ToList()[i].Id">@Model.Categories.ToList()[i].Title</option>
+            }
+        </select>
+        <textarea name="categoryid" style="display:none" cols="100" rows="1" required>@Model.Id</textarea>
+        <p> </p>
+        <p>Ключевые слова</p>
+        <textarea name="keywords" cols="100" rows="1" required></textarea>
+        <p> </p>
+        <input type="submit" class="btn btn-primary" value="Добавить новость" name="btSend">
+    </form>
+
+}
+

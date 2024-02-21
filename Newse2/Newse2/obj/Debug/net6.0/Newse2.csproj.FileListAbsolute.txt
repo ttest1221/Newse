@@ -1,0 +1,142 @@
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\appsettings.json
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Newse2.staticwebassets.runtime.json
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Newse2.exe
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Newse2.deps.json
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Newse2.runtimeconfig.json
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Newse2.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Newse2.pdb
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.csproj.AssemblyReference.cache
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.AssemblyInfoInputs.cache
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.AssemblyInfo.cs
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.csproj.CoreCompileInputs.cache
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.RazorAssemblyInfo.cache
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.RazorAssemblyInfo.cs
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.Newse2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.build.Newse2.props
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Newse2.props
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Newse2.props
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\scopedcss\bundle\Newse2.styles.css
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\scopedcss\projectbundle\Newse2.bundle.scp.css
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.csproj.CopyComplete
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\refint\Newse2.dll
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.pdb
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\Newse2.genruntimeconfig.cache
+C:\Users\Студент\source\repos\Newse2\Newse2\obj\Debug\net6.0\ref\Newse2.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\appsettings.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newse2.staticwebassets.runtime.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newse2.exe
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newse2.deps.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newse2.runtimeconfig.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newse2.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newse2.pdb
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.csproj.AssemblyReference.cache
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.AssemblyInfoInputs.cache
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.AssemblyInfo.cs
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.RazorAssemblyInfo.cache
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.RazorAssemblyInfo.cs
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.Newse2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.build.Newse2.props
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Newse2.props
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Newse2.props
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\scopedcss\bundle\Newse2.styles.css
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\scopedcss\projectbundle\Newse2.bundle.scp.css
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.csproj.CopyComplete
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\refint\Newse2.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.pdb
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.genruntimeconfig.cache
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\ref\Newse2.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Syncfusion.EJ2.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\Syncfusion.Licensing.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\obj\Debug\net6.0\Newse2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\PagedList.dll
+C:\Users\Student\source\Newse2 new\Newse2\Newse2\bin\Debug\net6.0\PagedList.Mvc.dll
